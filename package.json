@@ -1,0 +1,26 @@
+{
+  "name": "massid-wa-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp List Store - MASS.ID STORE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "qr": "node index.js --qr",
+    "reset": "node reset-session.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "node-webpmux": "^3.2.1",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "telegram": "^2.26.22"
+  },
+  "allowScripts": {
+    "@whiskeysockets/baileys@6.7.24": true,
+    "protobufjs@7.6.6": true
+  }
+}
